@@ -1,0 +1,23 @@
+type = "about"
+title = "About"
+
+[profile]
+research_interests = ["Robot Learning", "Humanoid Whole-Body Control"]
+
+[[sections]]
+id = "introduction"
+type = "markdown"
+source = "bio.md"
+title = "About Me"
+
+[[sections]]
+id = "vision"
+type = "markdown"
+source = "vision.md"
+title = "Research Vision"
+
+[[sections]]
+id = "education"
+type = "markdown"
+source = "education.md"
+title = "Education"
