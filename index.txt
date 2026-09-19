@@ -1,0 +1,71 @@
+1:"$Sreact.fragment"
+3:I[7558,["431","static/chunks/431-264f8dcfa4d3109c.js","310","static/chunks/310-e331d309ebd695f5.js","177","static/chunks/app/layout-cea78cc41a1bae31.js"],"ThemeProvider"]
+4:I[611,["431","static/chunks/431-264f8dcfa4d3109c.js","310","static/chunks/310-e331d309ebd695f5.js","177","static/chunks/app/layout-cea78cc41a1bae31.js"],"LocaleProvider"]
+5:I[552,["431","static/chunks/431-264f8dcfa4d3109c.js","310","static/chunks/310-e331d309ebd695f5.js","177","static/chunks/app/layout-cea78cc41a1bae31.js"],"default"]
+6:I[9766,[],""]
+7:I[8924,[],""]
+c:I[7150,[],""]
+:HL["/_next/static/css/448331227e62141d.css","style"]
+2:T5c3,
+    try {
+      const cfg = {"enabled":false,"locales":["en"],"defaultLocale":"en","mode":"fixed","fixedLocale":"en","persist":false,"switcher":false,"labels":{"en":"en"}};
+      const storageKey = 'locale-storage';
+      const normalize = (value) => typeof value === 'string' ? value.trim().replace('_', '-').toLowerCase() : '';
+      const matchLocale = (candidate) => {
+        const normalized = normalize(candidate);
+        if (!normalized) return null;
+        if (cfg.locales.includes(normalized)) return normalized;
+        const language = normalized.split('-')[0];
+        if (cfg.locales.includes(language)) return language;
+        return null;
+      };
+
+      let resolved = null;
+
+      if (!cfg.enabled) {
+        resolved = cfg.defaultLocale;
+      } else if (cfg.persist) {
+        resolved = matchLocale(localStorage.getItem(storageKey));
+      }
+
+      if (!resolved) {
+        if (cfg.mode === 'fixed') {
+          resolved = cfg.fixedLocale;
+        } else {
+          resolved = matchLocale(navigator.language);
+        }
+      }
+
+      if (!resolved) {
+        resolved = cfg.defaultLocale;
+      }
+
+      const root = document.documentElement;
+      root.lang = resolved;
+      root.setAttribute('data-locale', resolved);
+
+      if (cfg.persist) {
+        localStorage.setItem(storageKey, resolved);
+      }
+    } catch (e) {
+      const root = document.documentElement;
+      root.lang = 'en';
+      root.setAttribute('data-locale', 'en');
+    }
+  0:{"P":null,"b":"hS3QXHS5ZrPBU6cGJf4gC","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/448331227e62141d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              try {\n                const theme = localStorage.getItem('theme-storage');\n                const parsed = theme ? JSON.parse(theme) : null;\n                const setting = parsed?.state?.theme || 'system';\n                const prefersDark = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n                const effective = setting === 'dark' ? 'dark' : (setting === 'light' ? 'light' : (prefersDark ? 'dark' : 'light'));\n                var root = document.documentElement;\n                root.classList.add(effective);\n                root.setAttribute('data-theme', effective);\n              } catch (e) {\n                var root = document.documentElement;\n                root.classList.add('light');\n                root.setAttribute('data-theme', 'light');\n              }\n            "}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"font-sans antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"config":{"enabled":false,"locales":["en"],"defaultLocale":"en","mode":"fixed","fixedLocale":"en","persist":false,"switcher":false,"labels":{"en":"en"}},"children":[["$","$L5",null,{"items":[{"title":"About","type":"page","target":"about","href":"/"}],"siteTitle":"Enxuan Ruan","enableOnePageMode":false,"i18n":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:props:config","itemsByLocale":{"en":[{"title":"About","type":"page","target":"about","href":"/"}]},"siteTitleByLocale":{"en":"Enxuan Ruan"}}],["$","main",null,{"className":"min-h-screen pt-16 lg:pt-20","children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L8","forbidden":"$undefined","unauthorized":"$undefined"}]}],"$L9"]}]}]}]]}]]}],{"children":["__PAGE__","$La",{},null,false]},null,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"s":false,"S":true}
+d:I[7923,["431","static/chunks/431-264f8dcfa4d3109c.js","310","static/chunks/310-e331d309ebd695f5.js","177","static/chunks/app/layout-cea78cc41a1bae31.js"],"default"]
+e:I[8889,["431","static/chunks/431-264f8dcfa4d3109c.js","35","static/chunks/35-68ce7b092397adca.js","974","static/chunks/app/page-04e2f4ed291416df.js"],"default"]
+f:I[4431,[],"OutletBoundary"]
+11:I[5278,[],"AsyncMetadataOutlet"]
+13:I[4431,[],"ViewportBoundary"]
+15:I[4431,[],"MetadataBoundary"]
+16:"$Sreact.suspense"
+8:[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]
+9:["$","$Ld",null,{"lastUpdated":"September 19, 2026","lastUpdatedByLocale":{"en":"September 19, 2026"},"defaultLocale":"en"}]
+a:["$","$1","c",{"children":[["$","$Le",null,{"dataByLocale":{"en":{"author":{"name":"Enxuan Ruan","name_zh":"阮恩暄","title":"Senior Undergraduate · Automation","institution":"Sichuan University"},"social":{"google_scholar":"https://scholar.google.com/citations?user=oTEhm4QAAAAJ&hl=zh-CN","github":"https://github.com/Rex2ing"},"features":{"enable_likes":false,"enable_one_page_mode":false},"enableOnePageMode":false,"researchInterests":["Robot Learning","Humanoid Whole-Body Control"],"pagesToShow":[{"type":"about","id":"about","sections":[{"id":"introduction","type":"markdown","source":"bio.md","title":"About Me","content":"I am **Enxuan Ruan (阮恩暄)**, a senior undergraduate student in the Department of Automation, College of Electrical and Engineering, at **Sichuan University**.\n\nMy research interests focus on **robot learning** and **humanoid whole-body control**.\n"},{"id":"vision","type":"markdown","source":"vision.md","title":"Research Vision","content":"My vision is to enable robots to integrate naturally into people's everyday lives, helping make life more convenient and intelligent.\n"},{"id":"education","type":"markdown","source":"education.md","title":"Education","content":"**Sichuan University**  \nDepartment of Automation · College of Electrical and Engineering\n\nUndergraduate studies in Automation  \nSeptember 2022 – July 2027 (expected)\n"}]}]}},"defaultLocale":"en"}],null,["$","$Lf",null,{"children":["$L10",["$","$L11",null,{"promise":"$@12"}]]}]]}]
+b:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],null],["$","$L15",null,{"children":["$","div",null,{"hidden":true,"children":["$","$16",null,{"fallback":null,"children":"$L17"}]}]}]]}]
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+10:null
+18:I[622,[],"IconMark"]
+12:{"metadata":[["$","title","0",{"children":"Enxuan Ruan"}],["$","meta","1",{"name":"description","content":"Enxuan Ruan (阮恩暄), a senior undergraduate in Automation at Sichuan University. Research interests: robot learning and humanoid whole-body control."}],["$","meta","2",{"name":"author","content":"Enxuan Ruan"}],["$","meta","3",{"name":"keywords","content":"Enxuan Ruan,阮恩暄,Robot Learning,Humanoid Whole-Body Control,Sichuan University"}],["$","meta","4",{"name":"creator","content":"Enxuan Ruan"}],["$","meta","5",{"name":"publisher","content":"Enxuan Ruan"}],["$","link","6",{"rel":"canonical","href":"https://rex2ing.github.io/"}],["$","meta","7",{"property":"og:title","content":"Enxuan Ruan"}],["$","meta","8",{"property":"og:description","content":"Enxuan Ruan (阮恩暄), a senior undergraduate in Automation at Sichuan University. Research interests: robot learning and humanoid whole-body control."}],["$","meta","9",{"property":"og:site_name","content":"Enxuan Ruan's Academic Website"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"Enxuan Ruan"}],["$","meta","14",{"name":"twitter:description","content":"Enxuan Ruan (阮恩暄), a senior undergraduate in Automation at Sichuan University. Research interests: robot learning and humanoid whole-body control."}],["$","link","15",{"rel":"icon","href":"/favicon.svg"}],["$","$L18","16",{}]],"error":null,"digest":"$undefined"}
+17:"$12:metadata"
