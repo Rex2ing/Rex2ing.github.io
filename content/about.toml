@@ -17,6 +17,13 @@ source = "vision.md"
 title = "Research Vision"
 
 [[sections]]
+id = "projects"
+type = "publications"
+title = "Selected Projects"
+filter = "selected"
+limit = 5
+
+[[sections]]
 id = "education"
 type = "markdown"
 source = "education.md"

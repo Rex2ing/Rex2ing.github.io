@@ -18,9 +18,10 @@ npm run dev
 - `content/vision.md`: research vision.
 - `content/education.md`: education and expected graduation date.
 - `content/about.toml`: homepage sections.
+- `content/publications.bib`: research projects, authors, links, descriptions and preview images.
 - `CONTENT_NOTES.md`: confirmed facts and editing constraints.
 
-The page is English-only, with a Chinese name alongside the English name. It intentionally has no portrait, email, publications, projects, awards or CV.
+The page is English-only, with a Chinese name alongside the English name. Selected projects use PRISM's BibTeX content workflow. It intentionally has no portrait, email, awards or CV, and no personal-contribution descriptions.
 
 ## Verification and static build
 
