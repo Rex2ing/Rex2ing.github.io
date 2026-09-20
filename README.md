@@ -17,6 +17,7 @@ npm run dev
 - `content/bio.md`: introduction and research interests.
 - `content/vision.md`: research vision.
 - `content/education.md`: education and expected graduation date.
+- `content/experience.md`: internship experience.
 - `content/about.toml`: homepage sections.
 - `content/publications.bib`: research projects, authors, links, descriptions and preview images.
 - `CONTENT_NOTES.md`: confirmed facts and editing constraints.

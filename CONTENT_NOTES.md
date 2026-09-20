@@ -27,3 +27,13 @@ The owner requested this project in the PRISM presentation style, without a pers
 - Preview: Figure 1 from https://arxiv.org/html/2609.06718v2/teaser.png.
 - Description paraphrases the paper's abstract. No individual contribution is inferred.
 - In PRISM's BibTeX author field, `#` denotes equal contribution and `*` denotes corresponding author. The rendered card uses the paper's symbols: `*` and `†`, respectively.
+
+## Noetix internship (September 20, 2026)
+
+- The owner supplied an internship certificate in Chinese and English and requested this experience on the homepage.
+- Employer: Noetix Robotics, Beijing, China. Company link: https://www.noetixrobotics.com/about/.
+- Role and department: Intern, Embodied Intelligence Division, as stated in the certificate.
+- Dates: January 15, 2026 to July 15, 2026; displayed at month precision as requested: January 2026 to July 2026.
+- Work: simulation training for a robotic soccer project, as stated in the certificate.
+- The certificate and its personal or administrative details are not public website assets.
+- Do not infer an engineering/research job title or link this internship to a specific paper without confirmation.

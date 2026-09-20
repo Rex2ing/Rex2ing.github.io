@@ -7,14 +7,17 @@ import { useMessages } from '@/lib/i18n/useMessages';
 interface AboutProps {
     content: string;
     title?: string;
+    sectionId?: string;
 }
 
-export default function About({ content, title }: AboutProps) {
+export default function About({ content, title, sectionId }: AboutProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.about;
 
     return (
         <motion.section
+            id={sectionId}
+            className="scroll-mt-24"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}

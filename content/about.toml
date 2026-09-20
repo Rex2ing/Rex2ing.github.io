@@ -24,6 +24,12 @@ filter = "selected"
 limit = 5
 
 [[sections]]
+id = "experience"
+type = "markdown"
+source = "experience.md"
+title = "Internship Experience"
+
+[[sections]]
 id = "education"
 type = "markdown"
 source = "education.md"

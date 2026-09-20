@@ -76,6 +76,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                         key={section.id}
                         content={section.content || ''}
                         title={section.title}
+                        sectionId={section.id}
                       />
                     );
                   case 'publications':
