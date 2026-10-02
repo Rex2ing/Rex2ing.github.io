@@ -37,3 +37,15 @@ The owner requested this project in the PRISM presentation style, without a pers
 - Work: simulation training for a robotic soccer project, as stated in the certificate.
 - The certificate and its personal or administrative details are not public website assets.
 - Do not infer an engineering/research job title or link this internship to a specific paper without confirmation.
+
+## Soft gripper project (October 2, 2026)
+
+- Title and technical scope come from the owner's resume: DRL-Based Grasping Control of a Logarithmic-Spiral Soft Gripper.
+- Role: core member, displayed as Core Team Member; dates: October 2024 to September 2025, explicitly confirmed by the owner.
+- Approved description: MuJoCo simulation, PPO control of continuous cable actuation, a six-DoF robotic arm, and a TPU-printed soft gripper.
+- The owner confirmed that demo1.mp4, demo2.mp4 and real_demo.mp4 are outcomes from this period and may be published.
+- The owner explicitly clarified that real_demo.mp4 is teleoperated, not a deployed PPO policy. Do not claim autonomous hardware grasping or sim-to-real policy deployment.
+- The homepage uses demo1.mp4 for Simulation Demo and real_demo.mp4 for Teleoperated Hardware Demo; demo2.mp4 is supplementary and is not needed for this card.
+- Web videos are H.264 MP4 with no audio; preview images are frames from those videos. Original materials are preserved locally.
+- No VLM/VLA, underwater results, quantitative performance, patent or publication claims are included. Later presentation/proposal content must not be assumed to describe the owner's participation period.
+- No personal contribution section is included. The original resume, proposal and presentations are not public website assets.

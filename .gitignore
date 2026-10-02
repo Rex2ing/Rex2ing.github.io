@@ -48,3 +48,6 @@ next-env.d.ts
 /template-source/
 /prism-template.zip
 /artifacts/
+
+# Private project source materials; approved web assets live in public/projects/
+/soft_robot/

@@ -6,14 +6,17 @@ import { DocumentTextIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24
 import { Publication } from '@/types/publication';
 import { useMessages } from '@/lib/i18n/useMessages';
 import FormattedBibTeXText from '@/components/publications/FormattedBibTeXText';
+import ResearchProjectCard from '@/components/home/ResearchProjectCard';
+import type { ResearchProject } from '@/types/project';
 
 interface SelectedPublicationsProps {
     publications: Publication[];
+    projects?: ResearchProject[];
     title?: string;
     sectionId?: string;
 }
 
-export default function SelectedPublications({ publications, title, sectionId }: SelectedPublicationsProps) {
+export default function SelectedPublications({ publications, projects = [], title, sectionId }: SelectedPublicationsProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.selectedPublications;
 
@@ -94,6 +97,7 @@ export default function SelectedPublications({ publications, title, sectionId }:
                         </div>
                     </article>
                 ))}
+                {projects.map((project) => <ResearchProjectCard key={project.id} project={project} />)}
             </div>
         </motion.section>
     );

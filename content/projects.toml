@@ -1,0 +1,22 @@
+[[projects]]
+id = "soft-gripper"
+title = "DRL-Based Grasping Control of a Logarithmic-Spiral Soft Gripper"
+role = "Core Team Member"
+period = "Oct. 2024 – Sep. 2025"
+description = "This project investigates reinforcement learning for grasping with a cable-driven logarithmic-spiral soft gripper. A PPO policy is trained in MuJoCo to control continuous cable actuation. A six-DoF robotic arm and TPU-printed soft gripper form the hardware platform, demonstrated through teleoperated grasping."
+tags = ["Soft Robotics", "Reinforcement Learning", "MuJoCo", "PPO"]
+preview = "/projects/soft-gripper/hardware.webp"
+previewAlt = "A cable-driven soft gripper mounted on a robotic arm lifting an object during a teleoperated demonstration."
+previewDemo = 1
+
+[[projects.demos]]
+label = "Simulation Demo"
+src = "/projects/soft-gripper/simulation.mp4"
+poster = "/projects/soft-gripper/simulation.webp"
+description = "A simulated robotic arm positions the logarithmic-spiral soft gripper to wrap around and lift a bottle."
+
+[[projects.demos]]
+label = "Teleoperated Hardware Demo"
+src = "/projects/soft-gripper/teleoperated-hardware.mp4"
+poster = "/projects/soft-gripper/hardware.webp"
+description = "Teleoperated grasping with the physical robotic arm and soft gripper. The operator controls the hardware in this demonstration."

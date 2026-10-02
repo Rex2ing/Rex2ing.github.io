@@ -19,10 +19,12 @@ npm run dev
 - `content/education.md`: education and expected graduation date.
 - `content/experience.md`: internship experience.
 - `content/about.toml`: homepage sections.
-- `content/publications.bib`: research projects, authors, links, descriptions and preview images.
+- `content/publications.bib`: publication-based projects, authors, links, descriptions and preview images.
+- `content/projects.toml`: research project descriptions, roles, dates and video demonstrations.
+- `public/projects/`: approved project posters and web-compatible videos.
 - `CONTENT_NOTES.md`: confirmed facts and editing constraints.
 
-The page is English-only, with a Chinese name alongside the English name. Selected projects use PRISM's BibTeX content workflow. It intentionally has no portrait, email, awards or CV, and no personal-contribution descriptions.
+The page is English-only, with a Chinese name alongside the English name. Selected projects combine PRISM's BibTeX publication cards with research project cards. It intentionally has no portrait, email, awards or CV, and no personal-contribution descriptions. Videos open on demand; hardware demonstrations are labeled with their actual control method.
 
 ## Verification and static build
 

@@ -20,6 +20,7 @@ title = "Research Vision"
 id = "projects"
 type = "publications"
 title = "Selected Projects"
+source = "projects.toml"
 filter = "selected"
 limit = 5
 

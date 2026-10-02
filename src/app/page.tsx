@@ -3,6 +3,7 @@ import { getMarkdownContent, getBibtexContent, getTomlContent, getPageConfig } f
 import { parseBibTeX } from '@/lib/bibtexParser';
 import HomePageClient, { type HomePageLocaleData } from '@/components/home/HomePageClient';
 import { Publication } from '@/types/publication';
+import type { ResearchProject } from '@/types/project';
 import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig } from '@/types/page';
 import { getRuntimeI18nConfig } from '@/lib/i18n/config';
 
@@ -15,6 +16,7 @@ interface SectionConfig {
   limit?: number;
   content?: string;
   publications?: Publication[];
+  projects?: ResearchProject[];
   items?: NewsItem[];
 }
 
@@ -38,6 +40,9 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
           content: section.source ? getMarkdownContent(section.source, locale) : '',
         };
       case 'publications': {
+        const projectData = section.source
+          ? getTomlContent<{ projects: ResearchProject[] }>(section.source, locale)
+          : null;
         const bibtex = getBibtexContent('publications.bib', locale);
         const allPubs = parseBibTeX(bibtex, locale);
         const filteredPubs = section.filter === 'selected'
@@ -46,6 +51,7 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         return {
           ...section,
           publications: filteredPubs.slice(0, section.limit || 5),
+          projects: projectData?.projects || [],
         };
       }
       case 'list': {
