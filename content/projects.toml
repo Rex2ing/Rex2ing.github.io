@@ -13,7 +13,7 @@ previewDemo = 1
 label = "Simulation Demo"
 src = "/projects/soft-gripper/simulation.mp4"
 poster = "/projects/soft-gripper/simulation.webp"
-description = "A simulated robotic arm positions the logarithmic-spiral soft gripper to wrap around and lift a bottle."
+description = "In simulation, the rigid robotic arm approaches the target object, and the logarithmic-spiral soft gripper then grasps it under the control of a reinforcement learning policy."
 
 [[projects.demos]]
 label = "Teleoperated Hardware Demo"
