@@ -46,7 +46,7 @@ export default function About({ content, title, sectionId }: AboutProps) {
                                 {children}
                             </blockquote>
                         ),
-                        strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
+                        strong: ({ children }) => <strong className={sectionId === 'experience' ? 'font-medium text-accent' : 'font-semibold text-primary'}>{children}</strong>,
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
                     }}
                 >
