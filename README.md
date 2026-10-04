@@ -24,7 +24,7 @@ npm run dev
 - `public/projects/`: approved project posters and web-compatible videos.
 - `CONTENT_NOTES.md`: confirmed facts and editing constraints.
 
-The page is English-only, with a Chinese name alongside the English name. Selected projects combine PRISM's BibTeX publication cards with research project cards. It intentionally has no portrait, email, awards or CV, and no personal-contribution descriptions. Videos open on demand; hardware demonstrations are labeled with their actual control method.
+The page is English-only, with a Chinese name alongside the English name. The profile portrait is configured through `author.avatar` and displayed above the name in a rounded square, following PRISM's profile image pattern. Selected projects combine PRISM's BibTeX publication cards with research project cards. It intentionally has no email, awards or CV, and no personal-contribution descriptions. Videos open on demand; hardware demonstrations are labeled with their actual control method.
 
 ## Verification and static build
 

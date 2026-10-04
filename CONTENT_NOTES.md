@@ -58,3 +58,9 @@ The owner requested this project in the PRISM presentation style, without a pers
 - Approved description: Leading a humanoid whole-body control project for active 3D scanning.
 - The owner requested a concise entry matching the Noetix internship, placed above it. The CV itself is not a public website asset.
 
+## Profile portrait (October 4, 2026)
+
+- The owner supplied and approved the lakeside portrait for the personal homepage.
+- `public/bio.jpg` is an unchanged copy of the supplied photo, configured as `author.avatar`.
+- The profile follows the original PRISM pattern: a 256-pixel rounded square above the name, rendered with Next.js Image and CSS object-cover. Center positioning is used for this photo.
+- No retouching or generated image changes were applied.

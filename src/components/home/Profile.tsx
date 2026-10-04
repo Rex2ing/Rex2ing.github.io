@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { AcademicCapIcon } from '@heroicons/react/24/outline';
 import { Github, ArrowUpRight } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
@@ -19,7 +20,20 @@ export default function Profile({ author, social, researchInterests }: ProfilePr
 
     return (
         <aside className="lg:sticky lg:top-28 lg:pr-6">
-            <div className="w-12 h-1 bg-accent rounded-full mb-7" aria-hidden="true" />
+            {author.avatar ? (
+                <div className="w-64 max-w-full aspect-square mb-7 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-200">
+                    <Image
+                        src={author.avatar}
+                        alt={author.name}
+                        width={256}
+                        height={256}
+                        className="w-full h-full object-cover object-center"
+                        priority
+                    />
+                </div>
+            ) : (
+                <div className="w-12 h-1 bg-accent rounded-full mb-7" aria-hidden="true" />
+            )}
             <h1 className="text-4xl font-serif font-bold text-primary tracking-tight mb-3">
                 {author.name}
             </h1>
