@@ -49,3 +49,12 @@ The owner requested this project in the PRISM presentation style, without a pers
 - Web videos are H.264 MP4 with no audio; preview images are frames from those videos. Original materials are preserved locally.
 - No VLM/VLA, underwater results, quantitative performance, patent or publication claims are included. Later presentation/proposal content must not be assumed to describe the owner's participation period.
 - No personal contribution section is included. The original resume, proposal and presentations are not public website assets.
+
+## Litchi Lab internship (October 4, 2026)
+
+- The owner supplied their CV and confirmed they are currently an intern leading a project at Litchi Lab.
+- Employer and location: Litchi Lab, Beijing, China; displayed role: Intern · Project Lead.
+- Dates: July 2026 to Present, as stated in the CV.
+- Approved description: Leading a humanoid whole-body control project for active 3D scanning.
+- The owner requested a concise entry matching the Noetix internship, placed above it. The CV itself is not a public website asset.
+
